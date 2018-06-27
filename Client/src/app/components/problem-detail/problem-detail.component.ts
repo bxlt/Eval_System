@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Problem } from '../../models/problem.model';
 
 @Component({
   selector: 'app-problem-detail',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProblemDetailComponent implements OnInit {
 
-  constructor() { }
+  problem: Problem[];
+
+  constructor(
+  ) { }
 
   ngOnInit() {
+  
   }
 
+ 
 }
